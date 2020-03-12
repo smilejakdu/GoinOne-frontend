@@ -1,8 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import Routes from "./Routes";
-import "Style/common.scss";
+import GlobalStyle from "Style/global";
 
-ReactDOM.render(<Routes />, document.getElementById("root"));
+// const devTools =
+//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
+// const store = createStore(rootReducer, devTools);
+// console.log(store.getState());
 
-
+ReactDOM.render(
+  <>
+    <GlobalStyle />
+    <Routes />
+  </>,
+  document.getElementById("root")
+);
