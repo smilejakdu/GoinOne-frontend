@@ -96,6 +96,7 @@ const Signupnext = props => {
                 size="lg"
                 color="#ff5141"
                 style={{
+                  visibility: email ? "visible" : "hidden",
                   display: correct_email && email ? "none" : "block"
                 }}
               />
@@ -120,6 +121,11 @@ const Signupnext = props => {
               onChange={onChange}
               name="pwd"
               placeholder="비밀번호 입력"
+              upper={upper}
+              lower={lower}
+              number={number}
+              length={length}
+              status={inputs}
             />
             <Inputicons>
               <FontAwesomeIcon
@@ -127,7 +133,7 @@ const Signupnext = props => {
                 size="lg"
                 color="#ff5141"
                 style={{
-                  visibility: pwdcheck ? "hidden" : "visible",
+                  visibility: pwd ? "visible" : "hidden",
                   display:
                     upper && lower && number && length ? "none" : "inline-block"
                 }}
@@ -151,7 +157,7 @@ const Signupnext = props => {
           </FormandIcon>
           <Pwdcheckbox>
             <Checklist>
-              <List check1 upper={upper}>
+              <List one upper={upper}>
                 <FontAwesomeIcon
                   style={{ display: upper ? "inline-block" : "none" }}
                   icon={faCheck}
@@ -160,7 +166,7 @@ const Signupnext = props => {
                 />
                 &nbsp; 영문 대문자 포함
               </List>
-              <List check2 lower={lower}>
+              <List tw lower={lower}>
                 <FontAwesomeIcon
                   style={{ display: lower ? "inline-block" : "none" }}
                   icon={faCheck}
@@ -169,7 +175,7 @@ const Signupnext = props => {
                 />
                 &nbsp; 영문 소문자 포함
               </List>
-              <List check3 number={number}>
+              <List th number={number}>
                 <FontAwesomeIcon
                   style={{ display: number ? "inline-block" : "none" }}
                   icon={faCheck}
@@ -178,7 +184,7 @@ const Signupnext = props => {
                 />
                 &nbsp; 숫자 포함
               </List>
-              <List check4 length={length}>
+              <List fo length={length}>
                 <FontAwesomeIcon
                   style={{ display: length ? "inline-block" : "none" }}
                   icon={faCheck}
@@ -205,7 +211,7 @@ const Signupnext = props => {
                 size="lg"
                 color="#ff5141"
                 style={{
-                  visibility: pwdcheck === pwd && pwd ? "hidden" : "visible",
+                  visibility: pwdcheck ? "visible" : "hidden",
                   display: pwdcheck === pwd && pwd ? "none" : "inline-block"
                 }}
               />
@@ -323,6 +329,10 @@ const Formemail = styled.input`
 `;
 const Formpwd = styled.input`
   ${infobox};
+  border-color: ${props =>
+    (!props.upper || !props.lower || !props.number || !props.length) &&
+    props.status.pwd &&
+    "red"};
 `;
 const Formpwdcheck = styled.input`
   ${infobox};
@@ -373,8 +383,9 @@ const check = css`
 
 const Emailcheck = styled.div`
   ${check};
+  display: none;
   display: ${props =>
-    props.status.correct_email && props.status.email ? "none" : "block"};
+    props.status.correct_email === false && props.status.email && "block"};
 `;
 
 const Pwdcheck = styled.div`
@@ -401,6 +412,7 @@ const list = css`
   margin-bottom: 5px;
   font-size: 12px;
   position: relative;
+
   ::before {
     content: "";
     position: absolute;
@@ -413,38 +425,26 @@ const list = css`
 `;
 
 const List = styled.li`
-  ${list}
-  ${props => {
-    if (props.check1) {
-      css`
-        ::before {
-          display: ${props => props.upper === true && "none"};
-        }
-        padding-left: ${props => props.upper === true && "0"};
-      `;
-    } else if (props.check2) {
-      css`
-        ::before {
-          display: ${props => props.lower === true && "none"};
-        }
-        padding-left: ${props => props.lower === true && "0"};
-      `;
-    } else if (props.check3) {
-      css`
-        ::before {
-          display: ${props => props.number === true && "none"};
-        }
-        padding-left: ${props => props.number === true && "0"};
-      `;
-    } else if (props.check4) {
-      css`
-        ::before {
-          display: ${props => props.length === true && "none"};
-        }
-        padding-left: ${props => props.length === true && "0"};
-      `;
-    }
-  }}
+  ${list} ::before {
+    display: ${props => {
+      if (
+        (props.upper && props.one) ||
+        (props.lower && props.tw) ||
+        (props.number && props.th) ||
+        (props.length && props.fo)
+      )
+        return "none";
+    }};
+  }
+  padding-left: ${props => {
+    if (
+      (props.upper && props.one) ||
+      (props.lower && props.tw) ||
+      (props.number && props.th) ||
+      (props.length && props.fo)
+    )
+      return "0";
+  }};
 `;
 
 const FormandIcon = styled.div`
