@@ -164,7 +164,6 @@ const Loginbox = styled.div`
   width: 100%;
   background-color: #fff;
 `;
-
 const Title = styled.h1`
   font-size: 28px;
   font-weight: 700;

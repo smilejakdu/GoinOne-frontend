@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
+import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
+import {
+  faExclamationCircle,
+  faCheck,
+  faCheckCircle
+} from "@fortawesome/free-solid-svg-icons";
 
+import { check_email, upper_case, lower_case, number_case } from "util/regexp";
 import SignupLayout from "Components/Layout/SignupLayout";
 
 const Signupnext = props => {
@@ -12,15 +18,16 @@ const Signupnext = props => {
     pwdcheck: "",
     correct_email: false
   });
+  const [pwdvisible, setPwdvisible] = useState(false);
+  const [pwdcheckvisible, setPwdcheckvisible] = useState(false);
+  const [upper, setUpper] = useState(false);
+  const [lower, setLower] = useState(false);
+  const [number, setNumber] = useState(false);
+  const [length, setLength] = useState(false);
+
   const { email, pwd, pwdcheck, correct_email } = inputs;
 
   const onChange = e => {
-    console.log(correct_email);
-    const check_email = /([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-    const upper_case = /[A-Z]/;
-    const lower_case = /[a-z]/;
-    const number_case = /\d/;
-    const length_case = pwd.length >= 10 ? true : false;
     if (check_email.test(email)) {
       setInputs({
         ...inputs,
@@ -35,6 +42,28 @@ const Signupnext = props => {
       });
     }
   };
+  useEffect(() => {
+    if (upper_case.test(pwd)) {
+      setUpper(true);
+    } else {
+      setUpper(false);
+    }
+    if (lower_case.test(pwd)) {
+      setLower(true);
+    } else {
+      setLower(false);
+    }
+    if (number_case.test(pwd)) {
+      setNumber(true);
+    } else {
+      setNumber(false);
+    }
+    if (pwd.length >= 10) {
+      setLength(true);
+    } else {
+      setLength(false);
+    }
+  }, [inputs, pwd, correct_email, upper, lower, number, length]);
   return (
     <SignupLayout>
       <Title>회원가입</Title>
@@ -53,43 +82,164 @@ const Signupnext = props => {
       <Userinfo>
         <Formwrapper>
           이메일
-          <Formemail
-            onChange={onChange}
-            name="email"
-            laceholder="아이디로 사용할 이메일 입력"
-            status={inputs}
-            autoFocus
-          />
+          <FormandIcon>
+            <Formemail
+              onChange={onChange}
+              name="email"
+              placeholder="아이디로 사용할 이메일 입력"
+              status={inputs}
+              autoFocus
+            />
+            <Inputicons email>
+              <FontAwesomeIcon
+                icon={faExclamationCircle}
+                size="lg"
+                color="#ff5141"
+                style={{
+                  display: correct_email && email ? "none" : "block"
+                }}
+              />
+              {correct_email && email && (
+                <FontAwesomeIcon
+                  icon={faCheckCircle}
+                  size="lg"
+                  color="#00cb6f"
+                />
+              )}
+            </Inputicons>
+          </FormandIcon>
           <Emailcheck status={inputs}>
             이메일 형식이 올바르지 않습니다
           </Emailcheck>
         </Formwrapper>
         <Formwrapper pwd>
           비밀번호
-          <Formpwd
-            type="password"
-            onChange={onChange}
-            name="pwd"
-            placeholder="비밀번호 입력"
-          />
+          <FormandIcon>
+            <Formpwd
+              type={pwdvisible ? "text" : "password"}
+              onChange={onChange}
+              name="pwd"
+              placeholder="비밀번호 입력"
+            />
+            <Inputicons>
+              <FontAwesomeIcon
+                icon={faExclamationCircle}
+                size="lg"
+                color="#ff5141"
+                style={{
+                  visibility: pwdcheck ? "hidden" : "visible",
+                  display:
+                    upper && lower && number && length ? "none" : "inline-block"
+                }}
+              />
+              {upper && lower && number && length && (
+                <FontAwesomeIcon
+                  icon={faCheckCircle}
+                  size="lg"
+                  color="#00cb6f"
+                />
+              )}
+              <FontAwesomeIcon
+                icon={pwdvisible ? faEye : faEyeSlash}
+                size="lg"
+                color="black"
+                onClick={() => {
+                  setPwdvisible(!pwdvisible);
+                }}
+              />
+            </Inputicons>
+          </FormandIcon>
           <Pwdcheckbox>
             <Checklist>
-              <List>영문 대문자 포함</List>
-              <List>영문 소문자 포함</List>
-              <List>숫자 포함</List>
-              <List>10자 이상</List>
+              <List check1 upper={upper}>
+                <FontAwesomeIcon
+                  style={{ display: upper ? "inline-block" : "none" }}
+                  icon={faCheck}
+                  size="lg"
+                  color="#00cb6f"
+                />
+                &nbsp; 영문 대문자 포함
+              </List>
+              <List check2 lower={lower}>
+                <FontAwesomeIcon
+                  style={{ display: lower ? "inline-block" : "none" }}
+                  icon={faCheck}
+                  size="lg"
+                  color="#00cb6f"
+                />
+                &nbsp; 영문 소문자 포함
+              </List>
+              <List check3 number={number}>
+                <FontAwesomeIcon
+                  style={{ display: number ? "inline-block" : "none" }}
+                  icon={faCheck}
+                  size="lg"
+                  color="#00cb6f"
+                />
+                &nbsp; 숫자 포함
+              </List>
+              <List check4 length={length}>
+                <FontAwesomeIcon
+                  style={{ display: length ? "inline-block" : "none" }}
+                  icon={faCheck}
+                  size="lg"
+                  color="#00cb6f"
+                />
+                &nbsp; 10자 이상
+              </List>
             </Checklist>
           </Pwdcheckbox>
         </Formwrapper>
-        <Formpwdcheck
-          status={inputs}
-          onChange={onChange}
-          type="password"
-          name="pwdcheck"
-          placeholder="비밀번호 확인"
-        ></Formpwdcheck>
-        <Pwdcheck status={inputs}>비밀번호가 서로 맞지 않습니다</Pwdcheck>
-        <Completebtn>완료</Completebtn>
+        <Formwrapper>
+          <FormandIcon>
+            <Formpwdcheck
+              status={inputs}
+              onChange={onChange}
+              type={pwdcheckvisible ? "text" : "password"}
+              name="pwdcheck"
+              placeholder="비밀번호 확인"
+            />
+            <Inputicons>
+              <FontAwesomeIcon
+                icon={faExclamationCircle}
+                size="lg"
+                color="#ff5141"
+                style={{
+                  visibility: pwdcheck === pwd && pwd ? "hidden" : "visible",
+                  display: pwdcheck === pwd && pwd ? "none" : "inline-block"
+                }}
+              />
+              {pwdcheck === pwd && pwdcheck && (
+                <FontAwesomeIcon
+                  icon={faCheckCircle}
+                  size="lg"
+                  color="#00cb6f"
+                />
+              )}
+              <FontAwesomeIcon
+                icon={pwdcheckvisible ? faEye : faEyeSlash}
+                size="lg"
+                color="black"
+                onClick={() => {
+                  console.log(pwdcheckvisible);
+                  setPwdcheckvisible(!pwdcheckvisible);
+                }}
+              />
+            </Inputicons>
+          </FormandIcon>
+          <Pwdcheck status={inputs}>비밀번호가 서로 맞지 않습니다</Pwdcheck>
+        </Formwrapper>
+        <Completebtn
+          email={correct_email}
+          upper={upper}
+          lower={lower}
+          number={number}
+          length={length}
+          pwd={pwd}
+          pwdcheck={pwdcheck}
+        >
+          완료
+        </Completebtn>
       </Userinfo>
     </SignupLayout>
   );
@@ -190,6 +340,18 @@ const Completebtn = styled.div`
   height: 48px;
   font-size: 16px;
   cursor: not-allowed;
+  ${props =>
+    props.email &&
+    props.upper &&
+    props.lower &&
+    props.length &&
+    props.pwd === props.pwdcheck &&
+    css`
+      cursor: pointer;
+      background-color: #1772f8;
+      opacity: 1;
+      color: white;
+    `}
 `;
 
 const Formwrapper = styled.div`
@@ -226,14 +388,15 @@ const Pwdcheckbox = styled.div`
   padding: 12px 16px;
   border: 1px solid #e4e5e8;
   border-radius: 4px;
+  background-color: #f8f8f9;
 `;
 
 const Checklist = styled.ul`
   list-style: none;
-  background-color: #f8f8f9;
   color: #79818f;
 `;
-const List = styled.li`
+
+const list = css`
   padding-left: 17px;
   margin-bottom: 5px;
   font-size: 12px;
@@ -247,4 +410,53 @@ const List = styled.li`
     height: 3px;
     background-color: #aeb3bb;
   }
+`;
+
+const List = styled.li`
+  ${list}
+  ${props => {
+    if (props.check1) {
+      css`
+        ::before {
+          display: ${props => props.upper === true && "none"};
+        }
+        padding-left: ${props => props.upper === true && "0"};
+      `;
+    } else if (props.check2) {
+      css`
+        ::before {
+          display: ${props => props.lower === true && "none"};
+        }
+        padding-left: ${props => props.lower === true && "0"};
+      `;
+    } else if (props.check3) {
+      css`
+        ::before {
+          display: ${props => props.number === true && "none"};
+        }
+        padding-left: ${props => props.number === true && "0"};
+      `;
+    } else if (props.check4) {
+      css`
+        ::before {
+          display: ${props => props.length === true && "none"};
+        }
+        padding-left: ${props => props.length === true && "0"};
+      `;
+    }
+  }}
+`;
+
+const FormandIcon = styled.div`
+  display: flex;
+  position: relative;
+`;
+const Inputicons = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 22px;
+  cursor: pointer;
+  width: ${props => (props.email ? "10px" : "50px")};
+  right: ${props => (props.email ? "20px" : "15px")};
 `;
