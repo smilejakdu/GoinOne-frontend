@@ -20,8 +20,8 @@ const info = [
 ];
 const policy = ["이용약관 및 규정", "API 이용약관", "개인정보처리방침"];
 
-const Footer = () => {
-  return (
+const Footer = props => {
+  return !props.exchange ? (
     <GNB>
       <Inner>
         <Main>
@@ -84,6 +84,16 @@ const Footer = () => {
         </Iconbox>
       </Inner>
     </GNB>
+  ) : (
+    <GNB>
+      <Inner exchange={props.exchange}>
+        <Customercenter>온라인 고객센터 &nbsp;></Customercenter>
+        <Callnumber>1670-9756 (10:00-19:00, 주말 및 공휴일 제외)</Callnumber>
+        <Copyright exchange>
+          Copyright © Coinone, Inc. All rights reserved.
+        </Copyright>
+      </Inner>
+    </GNB>
   );
 };
 
@@ -92,14 +102,14 @@ export default Footer;
 const GNB = styled.div`
   position: relative;
   width: 100%;
-
-  background-color: #f8f8f9;
+  background-color: ${props => (props.exchange ? "transparent" : "#f8f8f9")};
   color: #aeb3bb;
 `;
 
 const Inner = styled.div`
   max-width: 1440px;
-  padding: 48px 80px;
+  padding: ${props => (props.exchange ? "50px 20px " : "48px 80px")};
+
   margin: 0 auto;
   position: relative;
 `;
@@ -215,5 +225,22 @@ const Icon = styled.div`
 const Copyright = styled.div`
   position: absolute;
   right: 0;
+  bottom: ${props => props.exchange && "50px"};
   font-size: 10px;
+`;
+
+const Customercenter = styled.div`
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #757786;
+  cursor: pointer;
+`;
+const Callnumber = styled.div`
+  display: block;
+
+  margin-top: 4px;
+  color: #757786;
+  font-size: 11px;
+  cursor: pointer;
 `;

@@ -1,0 +1,3728 @@
+{
+  "tradepairs": [
+    {
+      "market_id": 90,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BNA",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1580282504,
+      "listed_at": 1580352600,
+      "chart_site": "COINONEBNA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 89,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "KVI",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1580282441,
+      "listed_at": 1580352600,
+      "chart_site": "COINONEKVI",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 85,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "DRM",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1579052679,
+      "listed_at": 1579143000,
+      "chart_site": "COINONEDRM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 84,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "TROY",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1578906260,
+      "listed_at": 1578970200,
+      "chart_site": "COINONETROY",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 82,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "PCI",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1576823449,
+      "listed_at": 1577155800,
+      "chart_site": "COINONEPCI",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 80,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "STPT",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1576479330,
+      "listed_at": 1576551000,
+      "chart_site": "COINONESTPT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 79,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "CHZ",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1576034184,
+      "listed_at": 1576637400,
+      "chart_site": "COINONECHZ",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 77,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "REDI",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1575426297,
+      "listed_at": 1575514200,
+      "chart_site": "COINONEREDI",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 88,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "SOC",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1579676108,
+      "listed_at": 1580284200,
+      "chart_site": "COINONESOC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 76,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ISR",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1575265760,
+      "listed_at": 1575341400,
+      "chart_site": "COINONEISR",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 74,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BAAS",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1574071983,
+      "listed_at": 1574304600,
+      "chart_site": "COINONEBAAS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 73,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "CLB",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1574062802,
+      "listed_at": 1574304600,
+      "chart_site": "COINONECLB",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 69,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ARPA",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1572832862,
+      "listed_at": 1572929400,
+      "chart_site": "COINONEARPA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 65,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "MATIC",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1567489173,
+      "listed_at": 1567651800,
+      "chart_site": "COINONEMATIC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 64,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "EGG",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1566313279,
+      "listed_at": 1566453000,
+      "chart_site": "COINONEEGG",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 62,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "KSC",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1564542130,
+      "listed_at": 1564638600,
+      "chart_site": "COINONEKSC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 58,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "PXL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1562046600,
+      "listed_at": 1562046600,
+      "chart_site": "COINONEPXL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 56,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "CELR",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1560837000,
+      "listed_at": 1560837000,
+      "chart_site": "COINONECELR",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 55,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ABL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1558590600,
+      "listed_at": 1559195400,
+      "chart_site": "COINONEABL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 48,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "GAS",
+      "market_type": 2,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1558576200,
+      "listed_at": 1558576200,
+      "chart_site": "COINONEGAS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 54,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "SPIN",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1557813000,
+      "listed_at": 1557813000,
+      "chart_site": "COINONESPIN",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 72,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "UOS",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1573808235,
+      "listed_at": 1574146200,
+      "chart_site": "COINONEUOS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 51,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "NEO",
+      "market_type": 1,
+      "orderbook_unit_small": "10",
+      "orderbook_unit_large": "50",
+      "price_unit": "10",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1558576200,
+      "listed_at": 1558576200,
+      "chart_site": "COINONENEO",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 75,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "FLETA",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1574671931,
+      "listed_at": 1574736600,
+      "chart_site": "COINONEFLETA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 50,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ANKR",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1555566600,
+      "listed_at": 1555566600,
+      "chart_site": "COINONEANKR",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 71,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "VANTA",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1573181993,
+      "listed_at": 1573527000,
+      "chart_site": "COINONEVANTA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 47,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ONG",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1555380000,
+      "listed_at": 1555379400,
+      "chart_site": "COINONEONG",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 46,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ONT",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1555380000,
+      "listed_at": 1555379400,
+      "chart_site": "COINONEONT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 45,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "TFUEL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1554947400,
+      "listed_at": 1554947400,
+      "chart_site": "COINONETFUEL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 61,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "PIB",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1563159807,
+      "listed_at": 1563256200,
+      "chart_site": "COINONEPIB",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 44,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "THETA",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1554947400,
+      "listed_at": 1554947400,
+      "chart_site": "COINONETHETA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 36,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BTT",
+      "market_type": 1,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1553677200,
+      "listed_at": 1553738400,
+      "chart_site": "COINONEBTT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 38,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "XLM",
+      "market_type": 1,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1554282000,
+      "listed_at": 1554343200,
+      "chart_site": "COINONEXLM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 57,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "TEMCO",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1560837000,
+      "listed_at": 1561442400,
+      "chart_site": "COINONETEMCO",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 52,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ORBS",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1555998600,
+      "listed_at": 1555998600,
+      "chart_site": "COINONEORBS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 66,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "PROM",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1568613891,
+      "listed_at": 1568785800,
+      "chart_site": "COINONEPROM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 83,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "MBL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1576825415,
+      "listed_at": 1577328600,
+      "chart_site": "COINONEMBL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 67,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "LAMB",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1569228806,
+      "listed_at": 1569289800,
+      "chart_site": "COINONELAMB",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 68,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "DAD",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1570443025,
+      "listed_at": 1570686600,
+      "chart_site": "COINONEDAD",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 63,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "DAPPT",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1565676859,
+      "listed_at": 1565761800,
+      "chart_site": "COINONEDAPPT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 17,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "XTZ",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1536541596,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEXTZ",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 41,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BSV",
+      "market_type": 1,
+      "orderbook_unit_small": "50",
+      "orderbook_unit_large": "100",
+      "price_unit": "50",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1554961800,
+      "listed_at": 1554961800,
+      "chart_site": "COINONEBSV",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 53,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "LUNA",
+      "market_type": 1,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1557208200,
+      "listed_at": 1557208200,
+      "chart_site": "COINONELUNA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 87,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "PSC",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1579676041,
+      "listed_at": 1579747800,
+      "chart_site": "COINONEPSC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 86,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "IOTX",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1579510132,
+      "listed_at": 1579575000,
+      "chart_site": "COINONEIOTX",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 14,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ZIL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEZIL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 35,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "TRX",
+      "market_type": 1,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1553677200,
+      "listed_at": 1553738400,
+      "chart_site": "COINONETRX",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 13,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "DATA",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEDATA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 43,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "AMO",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1554778800,
+      "listed_at": 1554794400,
+      "chart_site": "COINONEAMO",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 15,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "KNC",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEKNC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 12,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "OMG",
+      "market_type": 2,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEOMG",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 7,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "LTC",
+      "market_type": 1,
+      "orderbook_unit_small": "10",
+      "orderbook_unit_large": "50",
+      "price_unit": "10",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONELTC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 5,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "QTUM",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1504051200,
+      "chart_site": "COINONEQTUM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 60,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "HINT",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1562561576,
+      "listed_at": 1562651400,
+      "chart_site": "COINONEHINT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 59,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BAT",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1562303484,
+      "listed_at": 1562565000,
+      "chart_site": "COINONEBAT",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 6,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BCH",
+      "market_type": 1,
+      "orderbook_unit_small": "50",
+      "orderbook_unit_large": "100",
+      "price_unit": "50",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEBCH",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 16,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ZRX",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEZRX",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 4,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "XRP",
+      "market_type": 1,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1494547200,
+      "chart_site": "COINONEXRP",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 10,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ATOM",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1552518000,
+      "chart_site": "COINONEATOM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 3,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ETC",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1469664000,
+      "chart_site": "COINONEETC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 2,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "ETH",
+      "market_type": 1,
+      "orderbook_unit_small": "50",
+      "orderbook_unit_large": "100",
+      "price_unit": "50",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1460332800,
+      "chart_site": "COINONEETH",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 9,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "EOS",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEEOS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 11,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BTG",
+      "market_type": 2,
+      "orderbook_unit_small": "10",
+      "orderbook_unit_large": "50",
+      "price_unit": "10",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEBTG",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 81,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "AXL",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1576654542,
+      "listed_at": 1576723800,
+      "chart_site": "COINONEAXL",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 78,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "FTM",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1575869706,
+      "listed_at": 1575946200,
+      "chart_site": "COINONEFTM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 70,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "HUM",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1571719697,
+      "listed_at": 1571885400,
+      "chart_site": "COINONEHUM",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 8,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "IOTA",
+      "market_type": 1,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONEIOTA",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 1,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "BTC",
+      "market_type": 1,
+      "orderbook_unit_small": "1000",
+      "orderbook_unit_large": "10000",
+      "price_unit": "1000",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1532394396,
+      "listed_at": 1412121600,
+      "chart_site": "COINONE",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 91,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "HIBS",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1580715340,
+      "listed_at": 1580784600,
+      "chart_site": "COINONEHIBS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 92,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "XPN",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1581473652,
+      "listed_at": 1581562200,
+      "chart_site": "COINONEXPN",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 93,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "OGN",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1581907282,
+      "listed_at": 1581994200,
+      "chart_site": "COINONEOGN",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 94,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "WIKEN",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1582082530,
+      "listed_at": 1582167000,
+      "chart_site": "COINONEWIKEN",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 95,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "LBXC",
+      "market_type": 2,
+      "orderbook_unit_small": "0.01",
+      "orderbook_unit_large": "0.05",
+      "price_unit": "0.01",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1582522732,
+      "listed_at": 1582599000,
+      "chart_site": "COINONELBXC",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 96,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "COS",
+      "market_type": 2,
+      "orderbook_unit_small": "0.1",
+      "orderbook_unit_large": "0.5",
+      "price_unit": "0.1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1582699586,
+      "listed_at": 1582771800,
+      "chart_site": "COINONECOS",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 2,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 97,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "DAI",
+      "market_type": 1,
+      "orderbook_unit_small": "5",
+      "orderbook_unit_large": "10",
+      "price_unit": "5",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1583733694,
+      "listed_at": 1583805600,
+      "chart_site": "COINONEDAI",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    },
+    {
+      "market_id": 98,
+      "base_coin_symbol": "KRW",
+      "target_coin_symbol": "SNX",
+      "market_type": 2,
+      "orderbook_unit_small": "1",
+      "orderbook_unit_large": "5",
+      "price_unit": "1",
+      "amount_unit": "0.0001",
+      "minimum_balance": "500",
+      "maximum_balance": "1000000000",
+      "created_at": 1583904533,
+      "listed_at": 1583981400,
+      "chart_site": "COINONESNX",
+      "range_price_units": [
+        { "range_min": "0.0001", "next_range_min": "10", "price_unit": "0.01" },
+        { "range_min": "10", "next_range_min": "100", "price_unit": "0.1" },
+        { "range_min": "100", "next_range_min": "1000", "price_unit": "1" },
+        { "range_min": "1000", "next_range_min": "10000", "price_unit": "5" },
+        {
+          "range_min": "10000",
+          "next_range_min": "100000",
+          "price_unit": "10"
+        },
+        {
+          "range_min": "100000",
+          "next_range_min": "500000",
+          "price_unit": "50"
+        },
+        {
+          "range_min": "500000",
+          "next_range_min": "1000000",
+          "price_unit": "100"
+        },
+        {
+          "range_min": "1000000",
+          "next_range_min": "2000000",
+          "price_unit": "500"
+        },
+        {
+          "range_min": "2000000",
+          "next_range_min": "922337203685477.5807",
+          "price_unit": "1000"
+        }
+      ],
+      "listing_status": 1,
+      "is_activate": true,
+      "is_trade": true
+    }
+  ]
+}

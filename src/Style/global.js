@@ -52,14 +52,17 @@ input[type="number"]::-webkit-inner-spin-button {
 
 html,
 body {
+ 
 width: 100%;
 height: 100%;
 font-family: "spoqa han sans", "Noto Sans KR", "noto sans kr ie",
   "apple sd gothic neo", "맑은 고딕", "malgun gothic", sans-serif;
+  
 }
 #root {
 width: 100%;
 height: 100%;
+
 }
 `;
 
