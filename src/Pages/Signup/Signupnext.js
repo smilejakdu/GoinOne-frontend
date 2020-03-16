@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components";
+import { withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -7,6 +8,7 @@ import {
   faCheck,
   faCheckCircle
 } from "@fortawesome/free-solid-svg-icons";
+import swal from "sweetalert";
 
 import { check_email, upper_case, lower_case, number_case } from "util/regexp";
 import SignupLayout from "Components/Layout/SignupLayout";
@@ -64,6 +66,31 @@ const Signupnext = props => {
       setLength(false);
     }
   }, [inputs, pwd, correct_email, upper, lower, number, length]);
+
+  const handleEmail = () => {
+    console.log("확인");
+    fetch("http://10.58.3.169:8000/account/signup ", {
+      method: "POST",
+      body: JSON.stringify({
+        email: email,
+        password: pwd
+      })
+    })
+      .then(res => res.json())
+      .then(res => {
+        if (res.message === "SUCCESS") {
+          swal(
+            "",
+            "인증 메일이 발송되었습니다 확인하시고 로그인을 해주세요",
+            "success"
+          ).then(() => {
+            props.history.push("/login");
+          });
+        } else if (res.message === "EXISTS_EMAIL") {
+          swal("", "유효한 이메일입니다 이메일을 확인 해주세요", "warning");
+        }
+      });
+  };
   return (
     <SignupLayout>
       <Title>회원가입</Title>
@@ -243,6 +270,9 @@ const Signupnext = props => {
           length={length}
           pwd={pwd}
           pwdcheck={pwdcheck}
+          onClick={() => {
+            handleEmail();
+          }}
         >
           완료
         </Completebtn>
@@ -251,7 +281,7 @@ const Signupnext = props => {
   );
 };
 
-export default Signupnext;
+export default withRouter(Signupnext);
 
 const Title = styled.p`
   margin-bottom: 24px;

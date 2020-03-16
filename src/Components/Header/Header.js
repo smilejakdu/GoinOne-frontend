@@ -1,18 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
-
 import main from "Img/coinone_logo_blue.svg";
 import loud from "Img/icon.png";
 
 const categoryData = ["거래소", "프로차트", "자산", "코인정보", "플러스"];
+let token = localStorage.getItem("token");
 
 const Header = props => {
   const [selectcategory, setSelectcategory] = useState(null);
+
   const onChange = num => {
     setSelectcategory(num);
   };
-
+  const handlLogOut = () => {
+    localStorage.removeItem("token");
+    props.history.push("/");
+  };
   return (
     <GNB exchange={props.exchange}>
       <Inner>
@@ -88,9 +92,9 @@ const Header = props => {
                   <TextWord>회원가입</TextWord>
                 </Link>
               </TextBox>
-              <TextBox>
-                <Link to="/login">
-                  <TextWord>로그인</TextWord>
+              <TextBox onClick={token && handlLogOut}>
+                <Link to={!token ? "/login" : ""}>
+                  <TextWord>{token ? "로그아웃" : "로그인"}</TextWord>
                 </Link>
               </TextBox>
             </TextBoxWrapper>
