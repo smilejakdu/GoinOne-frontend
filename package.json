@@ -11,6 +11,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "highcharts": "^8.0.4",
+    "highcharts-react-official": "^3.0.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -20,7 +22,8 @@
     "redux": "^4.0.5",
     "socket.io-client": "^2.3.0",
     "styled-components": "^5.0.1",
-    "styled-reset": "^4.1.1"
+    "styled-reset": "^4.1.1",
+    "sweetalert": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
