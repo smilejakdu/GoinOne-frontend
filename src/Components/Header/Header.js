@@ -1,82 +1,82 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 import main from "Img/coinone_logo_blue.svg";
 import loud from "Img/icon.png";
 
-const Header = () => {
+const categoryData = ["거래소", "프로차트", "자산", "코인정보", "플러스"];
+
+const Header = props => {
   const [selectcategory, setSelectcategory] = useState(null);
   const onChange = num => {
     setSelectcategory(num);
   };
 
   return (
-    <GNB>
+    <GNB exchange={props.exchange}>
       <Inner>
         <MainImg className="main_img" src={main} alt="main_img" />
         <MainWrapper>
-          <MainLeftWrapper>
-            <ListWrapper>
-              <ListText>거래소</ListText>
-            </ListWrapper>
-            <ListWrapper>
-              <ListText>프로차트</ListText>
-            </ListWrapper>
-            <ListWrapper
-              category
-              onMouseLeave={() => {
-                onChange(null);
-              }}
-              onMouseEnter={() => {
-                onChange(1);
-              }}
-            >
-              <ListText>자산</ListText>
-              {selectcategory === 1 && (
-                <CategoryList>
-                  <CategoryContent>수익현황</CategoryContent>
-                  <CategoryContent>입출금</CategoryContent>
-                  <CategoryContent>거래기록</CategoryContent>
-                </CategoryList>
-              )}
-            </ListWrapper>
-            <ListWrapper
-              category
-              onMouseEnter={() => {
-                onChange(2);
-              }}
-              onMouseLeave={() => {
-                onChange(null);
-              }}
-            >
-              <ListText>코인정보</ListText>
-              {selectcategory === 2 && (
-                <CategoryList>
-                  <CategoryContent>크립토 뉴스</CategoryContent>
-                  <CategoryContent>프로젝트 정보</CategoryContent>
-                  <CategoryContent>암호화폐 명세서</CategoryContent>
-                </CategoryList>
-              )}
-            </ListWrapper>
-            <ListWrapper
-              category
-              onMouseEnter={() => {
-                onChange(3);
-              }}
-              onMouseLeave={() => {
-                onChange(null);
-              }}
-            >
-              <ListText>플러스</ListText>
-              {selectcategory === 3 && (
-                <CategoryList>
-                  <CategoryContent>락업</CategoryContent>
-                  <CategoryContent>데일리</CategoryContent>
-                  <CategoryContent>스테이킹</CategoryContent>
-                </CategoryList>
-              )}
-            </ListWrapper>
+          <MainLeftWrapper
+            onMouseLeave={() => {
+              onChange(null);
+            }}
+          >
+            {categoryData.map((ele, idx) => (
+              <ListWrapper
+                className="hi"
+                key={idx}
+                onMouseEnter={() => {
+                  onChange(idx);
+                }}
+              >
+                <ListText
+                  exchange={props.exchange && idx === 0 && true}
+                  onClick={() => {
+                    idx === 0 && props.history.push("/exchange");
+                  }}
+                >
+                  {ele}
+                </ListText>
+                {selectcategory === 2 && (
+                  <CategoryList
+                    two
+                    onMouseEnter={() => {
+                      onChange(2);
+                    }}
+                  >
+                    <CategoryContent>수익현황</CategoryContent>
+                    <CategoryContent>입출금</CategoryContent>
+                    <CategoryContent>거래기록</CategoryContent>
+                  </CategoryList>
+                )}
+                {selectcategory === 3 && (
+                  <CategoryList
+                    three
+                    onMouseEnter={() => {
+                      onChange(3);
+                    }}
+                  >
+                    <CategoryContent>크립토 뉴스</CategoryContent>
+                    <CategoryContent>프로젝트 정보</CategoryContent>
+                    <CategoryContent>암호화폐 명세서</CategoryContent>
+                  </CategoryList>
+                )}
+                {selectcategory === 4 && (
+                  <CategoryList
+                    four
+                    onMouseEnter={() => {
+                      onChange(4);
+                    }}
+                  >
+                    <CategoryContent>락업</CategoryContent>
+                    <CategoryContent>데일리</CategoryContent>
+                    <CategoryContent>스테이킹</CategoryContent>
+                  </CategoryList>
+                )}
+              </ListWrapper>
+            ))}
           </MainLeftWrapper>
           <MainRightWrapper>
             <MainRightIconWrapper>
@@ -105,25 +105,26 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default withRouter(Header);
 
 const GNB = styled.div`
   position: fixed;
-  background-color: #fff;
+  background-color: ${props => (props.exchange ? "#f8f8f9" : "white")};
   z-index: 1000;
   margin: 0 auto;
   top: 0;
   left: 0;
   right: 0;
   height: 68px;
-  box-shadow: 0 8px 12px 0 rgba(255, 255, 255, 0.8);
+  box-shadow: ${props =>
+    !props.exchange && "0 8px 12px 0 rgba(255, 255, 255, 0.8)"};
 `;
 
 const Inner = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 50px 0 20px;
   max-width: 1440px;
   height: 100%;
 `;
@@ -142,26 +143,31 @@ const MainWrapper = styled.div`
 
 const MainLeftWrapper = styled.div`
   display: flex;
+  position: relative;
 `;
 
 const ListWrapper = styled.div`
   padding: 10px 0;
   padding-left: 10px;
   font-weight: 500;
-  cursor: pointer;
 
-  position: ${props => props.category && "relative"};
+  cursor: pointer;
 `;
 
 const CategoryList = styled.div`
-  position: absolute;
   width: 200px;
-  top: 42px;
-  box-shadow: 0 2px 12px 0 rgba(37, 42, 49, 0.08),
-    0 2px 5px 0 rgba(37, 42, 49, 0.15);
+  position: absolute;
+  left: ${props => {
+    if (props.two) return "190px";
+    else if (props.three) return "250px";
+    else if (props.four) return "350px";
+  }};
+  top: 45px;
+  box-shadow: 0 2px 3px 0 #e0e0e0, 0 2px 3px 0 #e0e0e0;
   border-radius: 6px;
   padding: 16px;
   transition: opacity 0.3s ease;
+  background-color: #fff;
   background-color: white;
 `;
 
@@ -169,7 +175,6 @@ const CategoryContent = styled.div`
   padding: 10px 0;
   padding-left: 10px;
   font-weight: 500;
-
   cursor: pointer;
   &:hover {
     background-color: rgba(174, 210, 224, 0.233);
@@ -177,11 +182,11 @@ const CategoryContent = styled.div`
   }
 `;
 const ListText = styled.a`
-  font-size: 15px;
+  font-size: 16.5px;
   padding: 6px 12px;
   font-weight: bold;
   transition: all 0.5s ease;
-
+  color: ${props => props.exchange && "#1772f8"};
   &:hover {
     background-color: rgba(174, 210, 224, 0.233);
     border-radius: 5px;
@@ -248,5 +253,6 @@ const TextWord = styled.a`
 const Select = styled.select`
   color: #79818f;
   border: none;
+  background-color: transparent;
   outline: none;
 `;
