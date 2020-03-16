@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faApple, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import { faLock, faCircle } from "@fortawesome/free-solid-svg-icons";
+import swal from "sweetalert";
 
 import styled, { css } from "styled-components";
 import Header from "Components/Header/Header";
@@ -41,6 +42,26 @@ const Login = props => {
   const goToSignup = () => {
     props.history.push("/signup");
   };
+
+  const handleLogin = () => {
+    fetch("http://10.58.3.169:8000/account/signin", {
+      method: "POST",
+      body: JSON.stringify({
+        email: email,
+        password: pwd
+      })
+    })
+      .then(res => res.json())
+      .then(res => {
+        if (res.access_token) {
+          props.history.push("/exchange");
+          localStorage.setItem("token", res.access_token);
+        } else {
+          swal("", "회원정보가 일치하지 않습니다", "error");
+        }
+      });
+  };
+
   return (
     <>
       <Header />
@@ -109,7 +130,7 @@ const Login = props => {
                 placeholder="Password"
                 type="password"
               />
-              <Loginbtn>로그인</Loginbtn>
+              <Loginbtn onClick={handleLogin}>로그인</Loginbtn>
             </Infobox>
             <Morelink>
               <More>비밀번호 찾기</More>
